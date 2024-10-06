@@ -26,7 +26,7 @@ const Navbar = () => {
       </div>
 
       {/* Desktop Navigation */}
-      <nav className='hidden md:flex bg-black/20 border-black/70 backdrop-blur-xl rounded-full px-8 gap-8 py-3 font-sans justify-center text-base font-light items-center ml-16'>
+      <nav className='hidden md:flex bg-black/20 border-black/70 backdrop-blur-xl rounded-full px-8 gap-8 py-3 font-sans justify-center text-base font-light items-center ml-24'>
         <a
           className='hover:text-black duration-300 hover:border-b-2 hover:border-yellow-500 border-transparent'
           href='#home'>
@@ -82,7 +82,7 @@ const Navbar = () => {
         </nav>
 
         {/* Contact Us Button in Mobile Menu */}
-        <button className='flex items-center p-2 gap-3 hover:bg-white/60 bg-black/20 backdrop-blur-md hover:text-black duration-300 hover:border-b-2 hover:border-yellow-500 border-transparent shadow-lg rounded-full mt-10'>
+        <button className='flex items-center py-2 px-4 gap-3 hover:bg-white/60 bg-black/20 backdrop-blur-md hover:text-black duration-300 hover:border-b-2 hover:border-yellow-500 border-transparent shadow-lg rounded-full mt-10'>
           Contact Us
           <BsArrowUpRightCircleFill
             className='bg-black rounded-full'
@@ -93,7 +93,7 @@ const Navbar = () => {
       </div>
 
       {/* Desktop Contact Button */}
-      <button className='hidden md:flex items-center p-2 gap-3 hover:bg-white/60 bg-black/20 backdrop-blur-md hover:text-black duration-300 hover:border-b-2 hover:border-yellow-500 border-transparent shadow-lg rounded-full'>
+      <button className='hidden md:flex items-center py-2 px-4 gap-3 hover:bg-white/60 bg-black/20 backdrop-blur-md hover:text-black duration-300 hover:border-b-2 hover:border-yellow-500 border-transparent shadow-lg rounded-full'>
         Contact Us
         <BsArrowUpRightCircleFill
           className='bg-black rounded-full'

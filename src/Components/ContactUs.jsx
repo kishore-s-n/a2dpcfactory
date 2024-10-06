@@ -1,9 +1,4 @@
-import {
-  FaFacebookF,
-  FaInstagram,
-  FaLinkedinIn,
-  FaTwitter,
-} from "react-icons/fa";
+import { FaInstagram, FaLinkedinIn, FaYoutube } from "react-icons/fa";
 
 const ContactUs = () => {
   return (
@@ -60,16 +55,22 @@ const ContactUs = () => {
         {/* Social Icons */}
         <div className='mt-10 text-center'>
           <div className='flex justify-center space-x-6 mb-6'>
-            <a href='#' className='text-white hover:text-yellow-400'>
-              <FaFacebookF size={24} />
-            </a>
-            <a href='#' className='text-white hover:text-yellow-400'>
+            <a
+              href='https://www.instagram.com/a2dpcfactory/'
+              target='_blank'
+              className='text-white hover:text-yellow-400'>
               <FaInstagram size={24} />
             </a>
-            <a href='#' className='text-white hover:text-yellow-400'>
-              <FaTwitter size={24} />
+            <a
+              href='https://www.youtube.com/channel/UCvyZS6W6zMJCZBVzF-Ei6sw'
+              target='_blank'
+              className='text-white hover:text-yellow-400'>
+              <FaYoutube size={24} />
             </a>
-            <a href='#' className='text-white hover:text-yellow-400'>
+            <a
+              href='https://www.instagram.com/a2dpcfactory/'
+              target='_blank'
+              className='text-white hover:text-yellow-400'>
               <FaLinkedinIn size={24} />
             </a>
           </div>

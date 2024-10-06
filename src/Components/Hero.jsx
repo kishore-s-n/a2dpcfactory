@@ -33,7 +33,7 @@ const Hero = () => {
           </h2>
         </div>
         <div className='flex flex-col md:flex-row w-screen md:mt-5 mt-24 items-center justify-center md:gap-10 gap-4 '>
-          <button className='flex font-bold text-sm items-center p-2 gap-3 hover:bg-white/60 bg-white backdrop-blur-md hover:text-black duration-300 hover:border-b-2 hover:border-yellow-500 border-transparent shadow-lg rounded-full '>
+          <button className='flex font-bold text-sm items-center py-2 px-4 gap-3 hover:bg-white/60 bg-white backdrop-blur-md hover:text-black duration-300 hover:border-b-2 hover:border-yellow-500 border-transparent shadow-lg rounded-full '>
             <a
               href='https://docs.google.com/forms/d/e/1FAIpQLSc9yaRxtTGFMp5bHNn2Rnen8DtY595S3JpfAPasBQGLWHj6Cg/viewform'
               target='_blank'>
@@ -46,7 +46,7 @@ const Hero = () => {
               color='white'
             />
           </button>{" "}
-          <button className='flex items-center p-2 gap-3 text-sm font-bold text-white hover:bg-white/30 bg-white/20 backdrop-blur-md hover:text-black duration-300 hover:border-b-2 hover:border-yellow-500 border-transparent shadow-lg rounded-full '>
+          <button className='flex items-center py-2 px-4 gap-3 text-sm font-bold text-white hover:bg-white/30 bg-white/20 backdrop-blur-md hover:text-black duration-300 hover:border-b-2 hover:border-yellow-500 border-transparent shadow-lg rounded-full '>
             <a href='tel:+919445747768' className='hover:underline'>
               Book a Demo
             </a>
