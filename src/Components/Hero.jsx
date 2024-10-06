@@ -17,10 +17,10 @@ const Hero = () => {
           <p>Hey Soldiers</p>
         </div>
         <div className='p-10 flex flex-col items-center justify-center z-20'>
-          <h1 className='font-mono font-extrabold text-xl md:text-6xl z-20 text-white text-center'>
+          <h1 className='font-clash font-extrabold text-xl md:text-6xl z-20 text-white text-center'>
             From Components to Masterpiece <br />
           </h1>
-          <h1 className='font-mono font-extrabold text-xl md:text-6xl z-20 text-white text-center'>
+          <h1 className='font-clash font-extrabold text-xl md:text-6xl z-20 text-white text-center'>
             Your{" "}
             <span className='bg-gradient-to-l from-yellow-400 to-yellow-800 bg-clip-text text-transparent'>
               Ultimate PC

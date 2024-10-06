@@ -139,7 +139,7 @@ const PcBuildSection = () => {
   };
 
   const expertForm = (
-    <>
+    <div id='buildpc'>
       <h3 className='text-2xl font-semibold my-4'>
         Tell Us About Your Requirements
       </h3>
@@ -180,7 +180,7 @@ const PcBuildSection = () => {
           />
         </div>
       </div>
-    </>
+    </div>
   );
 
   // Determine available motherboards based on selected processor
@@ -190,8 +190,10 @@ const PcBuildSection = () => {
     ? components.motherboards.amd
     : [];
   return (
-    <div className='pc-build-section bg-white py-10 px-5 bg-slate-100'>
-      <h2 className='text-center text-2xl md:text-3xl font-semibold mb-5'>
+    <div
+      className='pc-build-section bg-white py-10 px-5 bg-slate-100'
+      id='buildpc'>
+      <h2 className='text-center text-2xl md:text-4xl font-clash font-semibold mb-5'>
         Build your dream PC with A2D Experts
       </h2>
       <p className='text-center text-base font-light mb-10'>

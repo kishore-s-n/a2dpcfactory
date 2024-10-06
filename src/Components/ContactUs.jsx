@@ -1,3 +1,5 @@
+import { BiMobile } from "react-icons/bi";
+import { BsMailbox } from "react-icons/bs";
 import { FaInstagram, FaLinkedinIn, FaYoutube } from "react-icons/fa";
 
 const ContactUs = () => {
@@ -11,20 +13,26 @@ const ContactUs = () => {
               Contact Us
             </h3>
             <ul className='space-y-3'>
-              <li className='text-sm md:text-lg'>
-                <span className='font-semibold'>Phone 1: </span>
+              <li className='flex items-center text-base md:text-lg'>
+                <span className=''>
+                  <BiMobile />
+                </span>
                 <a href='tel:+919445747768' className='hover:underline'>
                   +91 94457 47768
                 </a>
               </li>
-              <li className='text-sm md:text-lg'>
-                <span className='font-semibold'>Phone 2: </span>
+              <li className=' flex items-center text-sm md:text-lg'>
+                <span>
+                  <BiMobile />
+                </span>
                 <a href='tel:+919025380083' className='hover:underline'>
                   +91 90253 80083
                 </a>
               </li>
-              <li className='text-sm md:text-lg'>
-                <span className='font-semibold'>Email: </span>
+              <li className='flex gap-2 items-center text-sm md:text-lg'>
+                <span className='font-semibold'>
+                  <BsMailbox />
+                </span>
                 <a
                   href='mailto:support@a2dpcfactory.com'
                   className='hover:underline'>

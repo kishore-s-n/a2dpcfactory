@@ -33,10 +33,10 @@ const Roadmap = () => {
 
   return (
     <div
-      className='relative min-h-screen bg-gray-100 overflow-hidden'
+      className=' relative min-h-screen bg-gray-100 overflow-hidden'
       id='whyus'>
       {/* Heading */}
-      <h2 className='text-4xl md:text-5xl font-bold text-center text-black pt-20 mb-16 md:mb-20'>
+      <h2 className='font-clash underline decoration-yellow-600 text-4xl md:text-5xl font-bold text-center text-black pt-20 mb-16 md:mb-20'>
         Why Us
       </h2>
 

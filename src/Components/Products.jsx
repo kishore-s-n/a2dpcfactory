@@ -1,3 +1,4 @@
+import { HiComputerDesktop } from "react-icons/hi2";
 import pc1 from "../assets/pc1.png";
 import pc2 from "../assets/pc2.png";
 import pc3 from "../assets/pc3.png";
@@ -11,7 +12,20 @@ const Products = () => {
     <div
       id='products'
       className='bg-black py-12 flex flex-col justify-center items-center'>
-      <h1 className='font-sans font-bold text-xl mx-auto md:text-3xl p-5 text-white'>
+      <button className='flex font-bold font-clash text-sm items-center py-2 px-4 gap-3 hover:bg-white/60 bg-white backdrop-blur-md hover:text-black duration-300 hover:border-b-2 hover:border-yellow-500 border-transparent shadow-lg rounded-full '>
+        <a
+          href='https://docs.google.com/forms/d/e/1FAIpQLSc9yaRxtTGFMp5bHNn2Rnen8DtY595S3JpfAPasBQGLWHj6Cg/viewform'
+          target='_blank'>
+          Our Popular Builds
+        </a>
+
+        <HiComputerDesktop
+          className='bg-yellow-600 p-1 rounded-full'
+          size={25}
+          color='white'
+        />
+      </button>
+      <h1 className='font-clash font-bold text-2xl mx-auto md:text-3xl p-5 text-white'>
         A2D`s Powerful Builds
       </h1>
 

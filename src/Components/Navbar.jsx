@@ -44,8 +44,8 @@ const Navbar = () => {
         </a>
         <a
           className='hover:text-black duration-300 hover:border-b-2 hover:border-yellow-500 border-transparent'
-          href='#testimonials'>
-          Testimonials
+          href='#buildpc'>
+          Build Pc
         </a>
       </nav>
 
@@ -75,15 +75,19 @@ const Navbar = () => {
           </a>
           <a
             className='text-white text-2xl hover:text-yellow-500 duration-300'
-            href='#testimonials'
+            href='#buildpc'
             onClick={toggleMenu}>
-            Testimonials
+            Build Pc
           </a>
         </nav>
 
         {/* Contact Us Button in Mobile Menu */}
         <button className='flex items-center py-2 px-4 gap-3 hover:bg-white/60 bg-black/20 backdrop-blur-md hover:text-black duration-300 hover:border-b-2 hover:border-yellow-500 border-transparent shadow-lg rounded-full mt-10'>
-          Contact Us
+          <a
+            href='https://docs.google.com/forms/d/e/1FAIpQLSc9yaRxtTGFMp5bHNn2Rnen8DtY595S3JpfAPasBQGLWHj6Cg/viewform'
+            target='_blank'>
+            Contact Us
+          </a>
           <BsArrowUpRightCircleFill
             className='bg-black rounded-full'
             size={25}
@@ -94,7 +98,11 @@ const Navbar = () => {
 
       {/* Desktop Contact Button */}
       <button className='hidden md:flex items-center py-2 px-4 gap-3 hover:bg-white/60 bg-black/20 backdrop-blur-md hover:text-black duration-300 hover:border-b-2 hover:border-yellow-500 border-transparent shadow-lg rounded-full'>
-        Contact Us
+        <a
+          href='https://docs.google.com/forms/d/e/1FAIpQLSc9yaRxtTGFMp5bHNn2Rnen8DtY595S3JpfAPasBQGLWHj6Cg/viewform'
+          target='_blank'>
+          Contact Us
+        </a>
         <BsArrowUpRightCircleFill
           className='bg-black rounded-full'
           size={25}

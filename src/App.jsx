@@ -4,6 +4,7 @@ import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
 import Products from "./Components/Products";
 import Roadmap from "./Components/Roadmap";
+import TestimonialSlider from "./Components/TestimonilaSlider";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Roadmap />
       <Products />
       <PcBuildSection />
+      <TestimonialSlider />
       <ContactUs />
     </div>
   );

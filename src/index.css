@@ -6,6 +6,13 @@
   scroll-behavior: smooth;
 }
 
+@font-face {
+  font-family: 'Clash Display';
+  src: url('./assets/clashdisplay/ClashDisplay-Variable.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
 @keyframes slide-left {
     0% {
       transform: translateX(-100%);
