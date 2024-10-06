@@ -82,6 +82,14 @@ const ContactUs = () => {
             &copy; {new Date().getFullYear()} A2D PC Factory. All rights
             reserved.
           </p>
+          <p className='text-gray-400'>
+            Designed by @Gunal Designs &copy; {new Date().getFullYear()} A2D PC
+            Factory. All rights reserved.
+          </p>
+          <p className='text-gray-400'>
+            Developed by @Kishore SN &copy; {new Date().getFullYear()} A2D PC
+            Factory. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>
