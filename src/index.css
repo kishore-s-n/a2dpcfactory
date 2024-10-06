@@ -1,3 +1,44 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+  scroll-behavior: smooth;
+}
+
+@keyframes slide-left {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+}
+  
+@keyframes slide-right {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+}
+@layer utilities {
+  .animate-showCard {
+    opacity: 1 !important;
+    transform: translateX(0) !important;
+  }
+
+  .roadmap-line {
+    transition: height 0.7s ease;
+    height: 0; /* Initial height */
+  }
+
+  .line-grow {
+    height: 100%; /* Full height when the line grows */
+  }
+}
