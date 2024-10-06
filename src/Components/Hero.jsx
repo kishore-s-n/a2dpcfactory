@@ -16,7 +16,7 @@ const Hero = () => {
           />
           <p>Hey Soldiers</p>
         </div>
-        <div className='p-10 flex flex-col items-center justify-center z-30'>
+        <div className='p-10 flex flex-col items-center justify-center z-20'>
           <h1 className='font-mono font-extrabold text-xl md:text-6xl z-20 text-white '>
             From Components to Masterpiece <br />
           </h1>
