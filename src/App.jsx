@@ -1,4 +1,5 @@
 import PcBuildSection from "./Components/ComponentSelector";
+import ContactUs from "./Components/ContactUs";
 import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
 import Products from "./Components/Products";
@@ -12,6 +13,7 @@ const App = () => {
       <Roadmap />
       <Products />
       <PcBuildSection />
+      <ContactUs />
     </div>
   );
 };

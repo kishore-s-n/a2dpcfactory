@@ -35,10 +35,10 @@
 
   .roadmap-line {
     transition: height 0.7s ease;
-    height: 0; /* Initial height */
+    height: 0;
   }
 
   .line-grow {
-    height: 100%; /* Full height when the line grows */
+    height: 100%;
   }
 }

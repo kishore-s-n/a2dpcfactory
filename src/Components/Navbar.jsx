@@ -11,8 +11,8 @@ const Navbar = () => {
 
   return (
     <div
-      className={`flex justify-between items-center px-10 py-5 z-10 fixed w-screen text-white md:bg-transparent bg-black/20`}>
-      <img src={logo} alt='Logo' className='h-12 ' />
+      className={`flex justify-between items-center px-10 py-2 z-10 fixed w-screen text-white md:bg-transparent bg-black/20`}>
+      <img src={logo} alt='Logo' className='h-12' />
 
       {/* Mobile Hamburger Icon */}
       <div className='md:hidden' onClick={toggleMenu}>

@@ -50,7 +50,7 @@ const Roadmap = () => {
             <img
               src={requirementsImg} // Change to your image path
               alt='Requirement Analysis'
-              className='w-full h-auto max-w-xs object-cover mb-6 md:mb-0 rounded-lg'
+              className='w-full h-auto max-w-xs object-cover mb-6 md:mb-0 rounded-lg transition-all duration-300'
             />
             <div className='roadmap-card bg-white rounded-lg shadow-lg p-6 md:p-8 w-full max-w-md'>
               <div className='flex items-center mb-4'>
