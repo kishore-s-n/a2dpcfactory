@@ -190,31 +190,33 @@ const PcBuildSection = () => {
     ? components.motherboards.amd
     : [];
   return (
-    <div className='pc-build-section bg-white py-10 px-5'>
-      <h2 className='text-center text-3xl font-semibold mb-5'>
+    <div className='pc-build-section bg-white py-10 px-5 bg-slate-100'>
+      <h2 className='text-center text-2xl md:text-3xl font-semibold mb-5'>
         Build your dream PC with A2D Experts
       </h2>
-      <p className='text-center mb-10'>
+      <p className='text-center text-base font-light mb-10'>
         Choose each component yourself using our intuitive interface or request
         recommendations from experts.
       </p>
-      <div className='flex flex-col md:flex-row justify-center gap-4 mb-6'>
-        <button
-          onClick={() => setRequestFromExpert(false)}
-          className={`${
-            !requestFromExpert ? "bg-black text-white" : "bg-gray-200"
-          } py-2 px-4 rounded-md transition duration-200 w-full md:w-auto`}>
-          Select By Own
-        </button>
-        <button
-          onClick={() => setRequestFromExpert(true)}
-          className={`${
-            requestFromExpert ? "bg-black text-white" : "bg-gray-200"
-          } py-2 px-4 rounded-md transition duration-200 w-full md:w-auto`}>
-          Request From Expert
-        </button>
+      <div className='flex flex-col gap-3 md:flex-row justify-center'>
+        <div className=' bg-white/70 rounded-full gap-4 mb-6 border-2 '>
+          <button
+            onClick={() => setRequestFromExpert(false)}
+            className={`${
+              !requestFromExpert ? "bg-black text-white" : "bg-white"
+            } py-2 px-4 rounded-full transition duration-200 w-full md:w-auto`}>
+            Select By Own
+          </button>
+          <button
+            onClick={() => setRequestFromExpert(true)}
+            className={`${
+              requestFromExpert ? "bg-black text-white" : "bg-white"
+            } py-2 px-4 rounded-full transition duration-200 w-full md:w-auto`}>
+            Request From Expert
+          </button>
+        </div>
       </div>
-      <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
+      <div className='grid grid-cols-1 md:grid-cols-2 gap-6  p-4 rounded-lg border-2 border-black/60'>
         {/* Form Section */}
         <div>
           <form onSubmit={handleSubmit} className='mt-6'>
@@ -384,13 +386,13 @@ const PcBuildSection = () => {
             {/* Submit Button */}
             <button
               type='submit'
-              className='mt-6 w-full bg-black text-white py-2 rounded'>
+              className='mt-6 w-full bg-black/60 backdrop-blur-lg font-bold border-black/70 border-1 text-white py-2 rounded'>
               Submit Build
             </button>
           </form>
         </div>
         {/* Summary Section */}
-        <div className='bg-black border p-5 rounded flex flex-col justify-center items-center'>
+        <div className='bg-black p-5 rounded-lg flex flex-col justify-center items-center'>
           <h1 className='text-white text-2xl mx-auto font-light px-2 pb-5 mx-auto justify-center  font-mono'>
             Profesionally Built PC`s
           </h1>

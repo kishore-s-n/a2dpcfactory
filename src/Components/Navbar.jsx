@@ -11,11 +11,13 @@ const Navbar = () => {
 
   return (
     <div
-      className={`flex justify-between items-center px-10 py-2 z-40 fixed w-screen text-white md:bg-transparent bg-black/20`}>
+      className={`flex justify-between items-center px-10 py-2 z-40 fixed w-screen text-white md:bg-transparent`}>
       <img src={logo} alt='Logo' className='h-12' />
 
       {/* Mobile Hamburger Icon */}
-      <div className='md:hidden' onClick={toggleMenu}>
+      <div
+        className='md:hidden rounded-full p-1 bg-black/30'
+        onClick={toggleMenu}>
         {isOpen ? (
           <BsX size={30} className='cursor-pointer' />
         ) : (

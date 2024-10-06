@@ -74,14 +74,14 @@ const Roadmap = () => {
           </div>
 
           {/* Step 2 - Mobile First, Right Image */}
-          <div className='flex flex-col items-center opacity-0 roadmap-card transition-all duration-700 md:flex-row-reverse md:space-x-8 animate-slide-in-right'>
+          <div className='flex flex-col items-center  opacity-0 roadmap-card transition-all duration-700 md:flex-row-reverse md:space-x-8 animate-slide-in-right'>
             <img
               src={componentsImg} // Change to your image path
               alt='Component Selection'
               className='w-full h-auto max-w-xs object-cover mb-6 md:mb-0 rounded-lg'
             />
             <div className='roadmap-card bg-white rounded-lg shadow-lg p-6 md:p-8 w-full max-w-md'>
-              <div className='flex items-center justify-end mb-4'>
+              <div className='flex items-center justify-end ml-5 mb-4'>
                 <span className='text-3xl md:text-4xl mr-3'>🔧</span>
                 <h3 className='text-xl md:text-3xl font-semibold'>
                   Component Selection

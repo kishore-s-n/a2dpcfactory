@@ -1,27 +1,34 @@
-export default function ConatctUs() {
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedinIn,
+  FaTwitter,
+} from "react-icons/fa";
+
+const ContactUs = () => {
   return (
     <footer className='bg-black text-white py-10'>
       <div className='container mx-auto px-4'>
         <div className='flex flex-col md:flex-row justify-between gap-8'>
           {/* Contact Details */}
           <div className='flex-1'>
-            <h3 className='text-2xl font-semibold mb-4 text-yellow-400'>
+            <h3 className='text-xl md:text-2xl font-semibold mb-4 text-yellow-400'>
               Contact Us
             </h3>
             <ul className='space-y-3'>
-              <li className='text-lg'>
+              <li className='text-sm md:text-lg'>
                 <span className='font-semibold'>Phone 1: </span>
                 <a href='tel:+919445747768' className='hover:underline'>
                   +91 94457 47768
                 </a>
               </li>
-              <li className='text-lg'>
+              <li className='text-sm md:text-lg'>
                 <span className='font-semibold'>Phone 2: </span>
                 <a href='tel:+919025380083' className='hover:underline'>
                   +91 90253 80083
                 </a>
               </li>
-              <li className='text-lg'>
+              <li className='text-sm md:text-lg'>
                 <span className='font-semibold'>Email: </span>
                 <a
                   href='mailto:support@a2dpcfactory.com'
@@ -34,10 +41,10 @@ export default function ConatctUs() {
 
           {/* Opening Hours */}
           <div className='flex-1'>
-            <h3 className='text-2xl font-semibold mb-4 text-yellow-400'>
+            <h3 className='text-xl md:text-2xl font-semibold mb-4 text-yellow-400'>
               Opening Hours
             </h3>
-            <ul className='space-y-3 text-lg'>
+            <ul className='space-y-3 text-sm md:text-lg'>
               <li>
                 <span className='font-semibold'>Monday - Saturday: </span>
                 09:00AM - 7:30PM
@@ -50,7 +57,25 @@ export default function ConatctUs() {
           </div>
         </div>
 
-        {/* Footer Bottom */}
+        {/* Social Icons */}
+        <div className='mt-10 text-center'>
+          <div className='flex justify-center space-x-6 mb-6'>
+            <a href='#' className='text-white hover:text-yellow-400'>
+              <FaFacebookF size={24} />
+            </a>
+            <a href='#' className='text-white hover:text-yellow-400'>
+              <FaInstagram size={24} />
+            </a>
+            <a href='#' className='text-white hover:text-yellow-400'>
+              <FaTwitter size={24} />
+            </a>
+            <a href='#' className='text-white hover:text-yellow-400'>
+              <FaLinkedinIn size={24} />
+            </a>
+          </div>
+        </div>
+
+        {/* ContactUs Bottom */}
         <div className='mt-10 border-t border-gray-700 pt-6 text-center text-sm'>
           <p className='text-gray-400'>
             &copy; {new Date().getFullYear()} A2D PC Factory. All rights
@@ -60,4 +85,6 @@ export default function ConatctUs() {
       </div>
     </footer>
   );
-}
+};
+
+export default ContactUs;

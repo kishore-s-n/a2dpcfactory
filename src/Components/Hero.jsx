@@ -17,10 +17,10 @@ const Hero = () => {
           <p>Hey Soldiers</p>
         </div>
         <div className='p-10 flex flex-col items-center justify-center z-20'>
-          <h1 className='font-mono font-extrabold text-xl md:text-6xl z-20 text-white '>
+          <h1 className='font-mono font-extrabold text-xl md:text-6xl z-20 text-white text-center'>
             From Components to Masterpiece <br />
           </h1>
-          <h1 className='font-mono font-extrabold text-xl md:text-6xl z-20 text-white '>
+          <h1 className='font-mono font-extrabold text-xl md:text-6xl z-20 text-white text-center'>
             Your{" "}
             <span className='bg-gradient-to-l from-yellow-400 to-yellow-800 bg-clip-text text-transparent'>
               Ultimate PC
@@ -47,7 +47,9 @@ const Hero = () => {
             />
           </button>{" "}
           <button className='flex items-center p-2 gap-3 text-sm font-bold text-white hover:bg-white/30 bg-white/20 backdrop-blur-md hover:text-black duration-300 hover:border-b-2 hover:border-yellow-500 border-transparent shadow-lg rounded-full '>
-            Book a Demo
+            <a href='tel:+919445747768' className='hover:underline'>
+              Book a Demo
+            </a>
             <IoCall className='rounded-full' size={25} color='white' />
           </button>
         </div>
