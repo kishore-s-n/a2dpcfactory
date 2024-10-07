@@ -1,4 +1,5 @@
 import { useState } from "react";
+import budgetDoc from "../assets/budgetPcDoc.png";
 import pcs from "../assets/pc1.png";
 const PcBuildSection = () => {
   const [selectedComponents, setSelectedComponents] = useState({
@@ -201,7 +202,7 @@ const PcBuildSection = () => {
         recommendations from experts.
       </p>
       <div className='flex flex-col gap-3 md:flex-row justify-center'>
-        <div className=' bg-white/70 rounded-full gap-4 mb-6 border-2 '>
+        <div className=' bg-white/70 rounded-full gap-4 border-2 '>
           <button
             onClick={() => setRequestFromExpert(false)}
             className={`${
@@ -218,6 +219,7 @@ const PcBuildSection = () => {
           </button>
         </div>
       </div>
+      <img src={budgetDoc} alt='' className='w-72 h-40' />
       <div className='grid grid-cols-1 md:grid-cols-2 gap-6  p-4 rounded-lg border-2 border-black/60'>
         {/* Form Section */}
         <div>
